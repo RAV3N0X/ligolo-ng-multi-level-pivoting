@@ -31,7 +31,3 @@ sudo ./lab/setup_netns_lab.sh
 - `lab/render_lab.py` — renders a JSON command/output spec into a styled terminal screenshot (Kali-prompt / root-prompt / proxy-console / agent-session styles).
 - `lab/specs/*.json` — the exact spec files used to render each figure in the post.
 - `screenshots/fig2.png` … `screenshots/fig15.png` — the real screenshots embedded in the published post (Figure 1 is a drawn topology diagram, not a terminal capture, and lives in the doc itself).
-
-## Write-up
-
-Published as a Claude Doc: https://claude.ai/artifact/K58XVpQJnVAJyQzsVVHJd4
