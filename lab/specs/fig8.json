@@ -1,0 +1,12 @@
+{"lines":[
+{"type":"agent_prompt","host":"root@pivot1","text":"listener_add --addr 0.0.0.0:11601 --to 127.0.0.1:11601 --tcp"},
+{"type":"out","text":"INFO[0083] Listener 0 created on remote agent!"},
+{"type":"agent_prompt","host":"root@pivot1","text":"listener_list"},
+{"type":"out","text":"┌───────────────────────────────────────────────────────────────────────────────┐"},
+{"type":"out","text":"│ Active listeners                                                                                                       │"},
+{"type":"out","text":"├───┬─────────────────────────────────────┬─────────┬───────────────────────┬───────────────────────┬────────┤"},
+{"type":"out","text":"│ # │ AGENT                                         │ NETWORK │ AGENT LISTENER ADDRESS │ PROXY REDIRECT ADDRESS │ STATUS │"},
+{"type":"out","text":"├───┼─────────────────────────────────────┼─────────┼───────────────────────┼───────────────────────┼────────┤"},
+{"type":"out","text":"│ 0 │ root@pivot1 - 10.10.14.5:59848 - baf32745807f │ tcp     │ 0.0.0.0:11601          │ 127.0.0.1:11601        │ Online │"},
+{"type":"out","text":"└───┴─────────────────────────────────────┴─────────┴───────────────────────┴───────────────────────┴────────┘"}
+]}

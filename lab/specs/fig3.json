@@ -1,0 +1,18 @@
+{"lines":[
+{"type":"kali_prompt","text":"sudo ./proxy -selfcert -laddr 0.0.0.0:11601"},
+{"type":"out","text":"INFO[0000] Loading configuration file ligolo-ng.yaml"},
+{"type":"out","text":"WARN[0000] Using default selfcert domain 'ligolo', beware of CTI, SOC and IoC!"},
+{"type":"out","text":"INFO[0000] Listening on 0.0.0.0:11601"},
+{"type":"blank"},
+{"type":"out","text":"    __    _             __"},
+{"type":"out","text":"   / /   (_)___ _____  / /___        ____  ____ _"},
+{"type":"out","text":"  / /   / / __ `/ __ \\/ / __ \\______/ __ \\/ __ `/"},
+{"type":"out","text":" / /___/ / /_/ / /_/ / / /_/ /_____/ / / / /_/ /"},
+{"type":"out","text":"/_____/_/\\__, /\\____/_/\\____/     /_/ /_/\\__, /"},
+{"type":"out","text":"        /____/                          /____/"},
+{"type":"blank"},
+{"type":"out","text":"  Made in France \u2665            by @Nicocha30!"},
+{"type":"out","text":"  Version: 0.8.3"},
+{"type":"blank"},
+{"type":"proxy_prompt","text":""}
+]}

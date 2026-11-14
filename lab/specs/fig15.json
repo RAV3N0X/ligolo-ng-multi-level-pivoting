@@ -1,0 +1,10 @@
+{"lines":[
+{"type":"kali_prompt","text":"ip route"},
+{"type":"out","text":"10.10.10.0/24 dev ligolo scope link"},
+{"type":"out","text":"10.10.14.0/24 dev eth0 proto kernel scope link src 10.10.14.9"},
+{"type":"out","text":"172.16.5.0/24 dev ligolo2"},
+{"type":"kali_prompt","text":"curl -s http://10.10.10.5:8081"},
+{"type":"out","text":"internal service on pivot one"},
+{"type":"kali_prompt","text":"curl -s http://172.16.5.20:8080"},
+{"type":"out","text":"internal service on pivot two"}
+]}

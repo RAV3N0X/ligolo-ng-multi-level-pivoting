@@ -1,0 +1,5 @@
+{"lines":[
+{"type":"agent_prompt","host":"root@pivot1","text":"tunnel_start --tun ligolo"},
+{"type":"out","text":"INFO[0042] Starting tunnel to root@pivot1 (baf32745807f)"},
+{"type":"agent_prompt","host":"root@pivot1","text":""}
+]}

@@ -1,0 +1,10 @@
+{"lines":[
+{"type":"agent_prompt","host":"root@app01","text":"interface_create --name ligolo2"},
+{"type":"out","text":"INFO[0165] Creating a new ligolo2 interface..."},
+{"type":"out","text":"INFO[0165] Interface created!"},
+{"type":"agent_prompt","host":"root@app01","text":"route_add --name ligolo2 --route 172.16.5.0/24"},
+{"type":"out","text":"INFO[0185] Route created."},
+{"type":"agent_prompt","host":"root@app01","text":"tunnel_start --tun ligolo2"},
+{"type":"out","text":"INFO[0205] Starting tunnel to root@app01 (92dcb53dc566)"},
+{"type":"agent_prompt","host":"root@app01","text":""}
+]}

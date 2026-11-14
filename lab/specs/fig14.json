@@ -1,0 +1,6 @@
+{"lines":[
+{"type":"root_prompt","host":"pivot1","text":"./agent -connect 10.10.14.9:443 -ignore-cert"},
+{"type":"out","text":"time=\"2026-11-14T10:26:26+01:00\" level=warning msg=\"warning, certificate validation disabled\""},
+{"type":"out","text":"time=\"2026-11-14T10:26:26+01:00\" level=error msg=\"Connection error: dial tcp 10.10.14.9:443: connect: connection refused\""},
+{"type":"out","text":"time=\"2026-11-14T10:26:26+01:00\" level=fatal msg=\"Initial connection failed. Use -retry flag to enable automatic retry.\""}
+]}

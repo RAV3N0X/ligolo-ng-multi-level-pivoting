@@ -1,0 +1,13 @@
+{"lines":[
+{"type":"kali_prompt","text":"ss -lnt | grep 11601"},
+{"type":"out","text":"LISTEN 0      4096         0.0.0.0:11601      0.0.0.0:*"},
+{"type":"kali_prompt","text":"ip route get 172.16.5.20"},
+{"type":"out","text":"172.16.5.20 dev ligolo2 src 10.10.14.9 uid 0"},
+{"type":"out","text":"    cache"},
+{"type":"kali_prompt","text":"ip -s link show ligolo2 | tail -6"},
+{"type":"out","text":"    link/none"},
+{"type":"out","text":"    RX:  bytes packets errors dropped  missed   mcast"},
+{"type":"out","text":"             0       0      0       0       0       0"},
+{"type":"out","text":"    TX:  bytes packets errors dropped carrier collsns"},
+{"type":"out","text":"             0       0      0       0       0       0"}
+]}

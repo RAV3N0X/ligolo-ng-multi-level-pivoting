@@ -1,0 +1,5 @@
+{"lines":[
+{"type":"root_prompt","host":"app01","text":"./agent -connect 10.10.10.5:11601 -ignore-cert"},
+{"type":"out","text":"time=\"2026-11-14T10:25:38+01:00\" level=warning msg=\"warning, certificate validation disabled\""},
+{"type":"out","text":"time=\"2026-11-14T10:25:38+01:00\" level=info msg=\"Connection established\" addr=\"10.10.10.5:11601\""}
+]}

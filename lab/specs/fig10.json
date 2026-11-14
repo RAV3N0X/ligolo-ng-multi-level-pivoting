@@ -1,0 +1,6 @@
+{"lines":[
+{"type":"proxy_prompt","text":"session"},
+{"type":"out","text":"? Specify a session :"},
+{"type":"out","text":"  1 - root@pivot1 - 10.10.14.5:59848 - baf32745807f"},
+{"type":"out","text":"▶ 2 - root@app01 - 127.0.0.1:51010 - 92dcb53dc566"}
+]}

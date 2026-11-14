@@ -1,0 +1,10 @@
+{"lines":[
+{"type":"kali_prompt","text":"sudo ip route add 10.10.10.0/24 dev ligolo"},
+{"type":"kali_prompt","text":"ip route"},
+{"type":"out","text":"10.10.10.0/24 dev ligolo scope link"},
+{"type":"out","text":"10.10.14.0/24 dev eth0 proto kernel scope link src 10.10.14.9"},
+{"type":"out","text":"172.16.5.0/24 dev ligolo2"},
+{"type":"kali_prompt","text":"ip route get 10.10.10.20"},
+{"type":"out","text":"10.10.10.20 dev ligolo src 240.0.0.1 uid 0"},
+{"type":"out","text":"    cache"}
+]}

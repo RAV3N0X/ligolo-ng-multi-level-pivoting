@@ -1,0 +1,7 @@
+{"lines":[
+{"type":"kali_prompt","text":"sudo ip tuntap add user root mode tun ligolo"},
+{"type":"kali_prompt","text":"sudo ip link set ligolo up"},
+{"type":"kali_prompt","text":"sudo ip addr add 240.0.0.1/32 dev ligolo"},
+{"type":"kali_prompt","text":"ip -br link show ligolo"},
+{"type":"out","text":"ligolo           DOWN           <NO-CARRIER,POINTOPOINT,MULTICAST,NOARP,UP>"}
+]}
